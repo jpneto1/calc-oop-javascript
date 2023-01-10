@@ -1,0 +1,109 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-color: #0F1722;
+  }
+
+  h1{
+    color: white;
+    text-align: center;
+    margin: 30px 0px;
+  }
+
+  #calculadora{
+    background-color: #1D293A;
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 30px 0 50px;
+    border-radius: 20px;
+  }
+
+  #tela{
+    background-color: #d5d5d5;
+    margin: 0 auto 30px;
+    padding: 10px;
+    width: 260px;
+    height: 70px;
+    border: 5px solid #4c4c4c;
+    border-radius: 5px;
+    text-align: right;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  #numero-superior, 
+  #resultado{
+    color: black;
+    float: right;
+  }
+
+  #resultado{
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 22px;
+    clear: both;
+  }
+
+  .bot-container{
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 15px;
+    
+  }
+
+  .bot{
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin: 0 7.5px;
+    line-height: 50px;
+    background-color: #354357;
+    font-weight:800;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bot:hover{
+    background-color: rgba(0, 0, 0, 0.45);
+  }
+
+  #ac-bot{
+    margin-left: -200px;
+  }
+
+  #divisao-bot{
+    position: absolute;
+    right: 14px;
+  }
+
+  #zero-bot{
+    width: 120px;
+  }
+
+  #igual-bot{
+    background-color: #4c4c4c;
+    width: 120px;
+  }
+
+  #igual-bot:hover{
+    background-color: grey;
+  }
+
+  #ac-bot,
+  #divisao-bot,
+  #multiplicacao-bot,
+  #subtracao-bot,
+  #soma-bot,
+  #zero-bot,
+  #igual-bot{
+    font-weight: 300;
+    font-size: 20px;
+  }
